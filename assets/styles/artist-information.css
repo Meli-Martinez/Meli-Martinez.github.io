@@ -1,0 +1,174 @@
+/* Normal Text */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Title, Header and gallery lettter */
+@import url('https://fonts.googleapis.com/css2?family=Crushed&family=Montserrat&display=swap');
+
+/* Subtitles and footer text*/
+@import url('https://fonts.googleapis.com/css2?family=Crushed&family=Montserrat&family=Raleway&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: #F2E4E3;
+}
+
+/*-- HEADER --*/
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: #1B100E;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2em;
+	width: 100%;
+}
+
+/* HEADER: logo */
+
+.logo-menu {
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	align-items: center;
+}
+
+/* HEADER: options */
+
+.menu-option {
+	color: #F2E4E3;
+	text-decoration: none;
+	padding: 2%;
+	font-weight: bold;
+} 
+
+/* -- ARTIST -- */
+
+.information-general-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3%;
+  background: linear-gradient(to top,
+      #F2E4E3 0%,
+      #F2E4E3 80%,
+      #CB9490 20%,
+      #CB9490 100%);
+}
+
+.information-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.images-container {
+  margin: 1% 2%;
+  width: 400px;
+  height: 650px;
+  overflow-y: scroll;
+  scrollbar-color: #2A2828 #000000;
+  scrollbar-width: thin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.images-container img {
+  max-width: 70%;
+  border-radius: 10px;
+  margin-bottom: 3%;
+}
+
+.information-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+}
+
+.title-artist {
+  font-size: 200%;
+  color: #1B100E;
+  font-family: 'Crushed', sans-serif;
+  margin-bottom: 2%;
+}
+
+.information-list ul,
+li {
+  list-style: none;
+  color: #36201C;
+  font-size: 20px;
+  margin-bottom: 2%;
+  font-weight: bold;
+  font-family: 'Montserat', sans-serif;
+  margin-top: 1%;
+}
+
+.information-list ul li p {
+  font-weight: 400;
+}
+
+
+.information-list .description-artist {
+  font-size: 18px;
+  text-align: justify;
+  color: #36201C;
+  font-family: 'Montserat', sans-serif;
+}
+
+/* -- FOOTER -- */
+
+.container-contact {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  background-color: #36201d;
+  justify-content: space-evenly;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 3%;
+}
+
+.picture-logo {
+  display: flex;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.container-logo-position {
+  display: flex;
+  flex-direction: column;
+  justify-content: inherit;
+  width: 32%;
+}
+
+.logo-position {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo-position p,
+.logo-position a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #F2E4E3;
+  font-size: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.social-position {
+  display: flex;
+  flex-direction: column;
+  justify-content: inherit;
+}
+
+.social-position img {
+  padding: 3%;
+}

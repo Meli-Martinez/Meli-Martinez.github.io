@@ -1,0 +1,286 @@
+/* Normal Text */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Title, Header and gallery lettter */
+@import url('https://fonts.googleapis.com/css2?family=Crushed&family=Montserrat&display=swap');
+
+/* Subtitles and footer text*/
+@import url('https://fonts.googleapis.com/css2?family=Crushed&family=Montserrat&family=Raleway&display=swap');
+
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-color: #1B100E;
+}
+
+.general-container {
+  background-color: #F2E4E3;
+}
+
+/* -- HEADER -- */
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #1B100E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  width: 100%;
+}
+
+/* HEADER: logo */
+
+.logo-menu {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  align-items: center;
+}
+
+/* HEADER: options */
+
+.menu-option {
+  color: #F2E4E3;
+  text-decoration: none;
+  padding: 2%;
+  font-weight: bold;
+}
+
+/*-- TICKET --*/
+
+.container-ticket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*-- TICKET: header --*/
+
+.video-ticket {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+video {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.ticket-header {
+  position: relative;
+  color: white;
+  font-size: 30px;
+  font-family: 'Crushed', sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.link-ticket-header {
+  width: 100%;
+}
+
+.ticket-header h1 {
+  margin-bottom: 5%;
+}
+
+.ticket-header button {
+  padding: 2% 3%;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F2E4E3;
+  color: #1B100E;
+  border-radius: 5px;
+  font-weight: 900;
+  font-size: 16px;
+  border: none;
+}
+
+/*-- TICKET: ticket --*/
+
+.container-ticket-comprobation {
+  width: 50%;
+  height: 350px;
+  border: 2px solid #36201d;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  background-color: #F2E4E3;
+}
+
+.container-ticket-comprobation h2 {
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  color: #36201d;
+}
+
+.input-container-ticket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.input-ticket {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-ticket input {
+  background: white;
+  border: 1px solid #393939;
+  border-radius: 5px;
+  color: #1B100E;
+  font-size: 16px;
+  padding: 3% 6%;
+  margin-bottom: 10%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.show-ticket ul li {
+  list-style: none;
+}
+
+.show-ticket p {
+  font-weight: 600;
+}
+
+.button-ticket {
+  width: 100%;
+  height: 100%;
+}
+
+.button-ticket button {
+  padding: 6% 4%;
+  color: #F2E4E3;
+  background-color: #1B100E;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  width: 60%;
+}
+
+.ticket-header button:hover {
+  background-color: #1B100E;
+  color: #F2E4E3;
+  cursor: pointer;
+}
+
+.show-ticket p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10%;
+  margin-bottom: 5%;
+
+}
+
+/*-- TICKET: two --*/
+
+.ticket-two {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #393939;
+  margin-top: 3%;
+}
+
+.title-ticket-two {
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  color: #F2E4E3;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.ticket-two-go {
+  margin-bottom: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.ticket-two-go p {
+  color: white;
+  margin-bottom: 2%;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* -- FOOTER -- */
+
+.container-contact {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  background-color: #36201d;
+  justify-content: space-evenly;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 3%;
+}
+
+.picture-logo {
+  display: flex;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.container-logo-position {
+  display: flex;
+  flex-direction: column;
+  justify-content: inherit;
+  width: 32%;
+}
+
+.logo-position {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo-position p,
+.logo-position a {
+  text-decoration: none;
+  font-size: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #F2E4E3;
+}
+
+.social-position {
+  display: flex;
+  flex-direction: column;
+  justify-content: inherit;
+}
+
+.social-position img {
+  padding: 3%;
+}

@@ -1,0 +1,171 @@
+/* Normal Text */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Title, Header and gallery lettter */
+@import url('https://fonts.googleapis.com/css2?family=Crushed&family=Montserrat&display=swap');
+
+/* Subtitles and footer text*/
+@import url('https://fonts.googleapis.com/css2?family=Crushed&family=Montserrat&family=Raleway&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: white;
+}
+
+
+/*-- HEADER --*/
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #F2E4E3;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  width: 100%;
+}
+
+/* HEADER: logo */
+
+.logo-menu {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  align-items: center;
+}
+
+/* HEADER: options */
+
+.menu-option {
+  color: #1B100E;
+  text-decoration: none;
+  padding: 2%;
+  font-weight: bold;
+}
+
+/*-- CARD --*/
+
+.general-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2%;
+  margin-top: 2rem;
+}
+
+.container-ticket {
+  background-color: #cfcfcfda;
+  color: #1B100E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25em;
+  height: 23em;
+  border-radius: 10px;
+  padding: 3%;
+}
+
+.title-ticket {
+  font-family: 'Raleway', sans-serif;
+  font-size: larger;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.title-ticket img {
+  padding: 0 2%;
+}
+
+.input input {
+  width: 15rem;
+  height: 1.5rem;
+  margin: 5% 0;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.button-general {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button-general button {
+  background-color: #1B100E;
+  width: 6rem;
+  height: 2rem;
+  color: white;
+  font-size: 12px;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+.button-send {
+  margin-right: 1rem;
+}
+
+.button-cancel {
+  margin-left: 1rem;
+}
+
+/* -- FOOTER -- */
+
+.container-contact {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  background-color: #1B100E;
+  justify-content: space-evenly;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 3%;
+}
+
+.picture-logo {
+  display: flex;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.container-logo-position {
+  display: flex;
+  flex-direction: column;
+  justify-content: inherit;
+  width: 32%;
+}
+
+.logo-position {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo-position p,
+.logo-position a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #F2E4E3;
+  font-size: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.social-position {
+  display: flex;
+  flex-direction: column;
+  justify-content: inherit;
+}
+
+.social-position img {
+  padding: 3%;
+}
