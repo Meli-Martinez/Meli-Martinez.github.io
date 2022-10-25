@@ -101,6 +101,7 @@ video {
 
 .ticket-header button {
   padding: 2% 3%;
+  margin: 1%;
   font-family: 'Montserrat', sans-serif;
   background-color: #F2E4E3;
   color: #1B100E;
@@ -240,7 +241,6 @@ video {
   background-color: #36201d;
   justify-content: space-evenly;
   font-family: 'Raleway', sans-serif;
-  margin-top: 3%;
 }
 
 .picture-logo {
