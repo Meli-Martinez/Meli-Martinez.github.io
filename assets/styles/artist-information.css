@@ -47,7 +47,7 @@ body {
 }
 
 .menu-option:hover {
-  background-color: #5c5858;
+  background-color: rgba(207, 204, 204, 0.459);
 }
 
 /* -- ARTIST -- */
