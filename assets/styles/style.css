@@ -49,6 +49,10 @@ body {
 	font-weight: bold;
 } 
 
+.menu-option:hover {
+  background-color: #dbd8d8;
+}
+
 /*-- PICTURES GRID --*/
 
 /*-- GRID: media --*/

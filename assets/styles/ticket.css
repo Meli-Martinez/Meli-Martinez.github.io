@@ -44,10 +44,14 @@ body {
 /* HEADER: options */
 
 .menu-option {
-  color: #F2E4E3;
-  text-decoration: none;
-  padding: 2%;
-  font-weight: bold;
+	color: #F2E4E3;
+	text-decoration: none;
+	padding: 2%;
+	font-weight: bold;
+} 
+
+.menu-option:hover {
+  background-color: #5c5858;
 }
 
 /*-- TICKET --*/
@@ -81,6 +85,8 @@ video {
   height: 100%;
 }
 
+/*-- HEADER --*/
+
 .ticket-header {
   position: relative;
   color: white;
@@ -101,7 +107,6 @@ video {
 
 .ticket-header button {
   padding: 2% 3%;
-  margin: 1%;
   font-family: 'Montserrat', sans-serif;
   background-color: #F2E4E3;
   color: #1B100E;
@@ -109,6 +114,12 @@ video {
   font-weight: 900;
   font-size: 16px;
   border: none;
+}
+
+.ticket-header button:hover {
+  background-color: #1B100E;
+  color: #F2E4E3;
+  cursor: pointer;
 }
 
 /*-- TICKET: ticket --*/
@@ -162,9 +173,15 @@ video {
   font-family: 'Montserrat', sans-serif;
 }
 
+.show-ticket ul li {
+  list-style: none;
+}
+
 .show-ticket p {
   font-weight: 600;
 }
+
+/*-- BUTTON --*/
 
 .button-ticket {
   width: 100%;
@@ -181,10 +198,14 @@ video {
   width: 60%;
 }
 
-.ticket-header button:hover {
-  background-color: #1B100E;
-  color: #F2E4E3;
+.enviar{
   cursor: pointer;
+}
+
+.enviar:hover {
+  background-color: #F2E4E3;
+  color:black;
+  font-weight: bold;
 }
 
 .show-ticket p {

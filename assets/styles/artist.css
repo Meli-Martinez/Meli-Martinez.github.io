@@ -47,6 +47,10 @@ body {
 	font-weight: bold;
 } 
 
+.menu-option:hover {
+    background-color: #dbd8d8;
+  }
+
 /* -- ARTIST -- */
 
 /* -- ARTIST: title -- */

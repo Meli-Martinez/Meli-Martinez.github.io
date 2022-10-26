@@ -13,7 +13,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: #f3dddc;
 }
 
 
@@ -26,7 +26,7 @@ body {
   background-color: #F2E4E3;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2em;
-  width: 100%;
+  align-items: center;
 }
 
 /* HEADER: logo */
@@ -41,10 +41,14 @@ body {
 /* HEADER: options */
 
 .menu-option {
-  color: #1B100E;
-  text-decoration: none;
-  padding: 2%;
-  font-weight: bold;
+	color: #1B100E;
+	text-decoration: none;
+	padding: 2%;
+	font-weight: bold;
+} 
+
+.menu-option:hover {
+  background-color: #dbd8d8;
 }
 
 /*-- CARD --*/
@@ -55,6 +59,8 @@ body {
   justify-content: center;
   padding: 2%;
   margin-top: 2rem;
+  background-color: white;
+  align-items: center;
 }
 
 .container-ticket {
@@ -67,6 +73,7 @@ body {
   height: 23em;
   border-radius: 10px;
   padding: 3%;
+  margin-left: 1.5%;
 }
 
 .title-ticket {
@@ -77,11 +84,62 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-bottom: 5%;
+  margin-bottom: 6%;
 }
 
 .title-ticket img {
   padding: 0 2%;
+} 
+
+/*-- CARD: precios --*/
+
+.prices-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: larger;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.prices-container {
+  background-color: #cfcfcfda;
+  color: #1B100E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25em;
+  height: 23em;
+  border-radius: 10px;
+  padding: 3%;
+  margin-right: 1.5%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.list-money {
+  list-style: none;
+}
+
+.list {
+  font-family: monserrat;
+  padding: 15px;
+  font-size:x-large;
+}
+
+.rule {
+  font-size:large;
+  padding: 15px; 
+}
+
+.ticket {
+  border-color: #1B100E;
+  border-radius:5px ;
+  width: 16rem;
+  height: 2rem;
+  cursor: pointer;
 }
 
 .input input {
@@ -92,7 +150,10 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   border-radius: 5px;
+  padding: 0 0 0 10px;
 }
+
+/*-- CARD: button --*/
 
 .button-general {
   display: flex;
@@ -110,12 +171,34 @@ body {
   border-radius: 5px;
 }
 
-.button-send {
+/*-- CARD: acciones --*/
+
+.buy-action {
   margin-right: 1rem;
+  cursor:pointer;
 }
 
-.button-cancel {
-  margin-left: 1rem;
+.cancel-action {
+  margin-right: 1rem;
+  cursor:pointer;
+}
+
+.buy-action:hover {
+  background-color: #F2E4E3; 
+  color: black;
+}
+
+.cancel-action:hover {
+  background-color: #F2E4E3; 
+  color: black;
+}
+
+.buy-action:active {
+  transform: translateY(6px);
+}
+
+.cancel-action:active {
+  transform: translateY(6px);
 }
 
 /* -- FOOTER -- */

@@ -46,6 +46,10 @@ body {
 	font-weight: bold;
 } 
 
+.menu-option:hover {
+  background-color: #dbd8d8c9;
+}
+
 /* -- ARTIST -- */
 
 .information-general-container {
