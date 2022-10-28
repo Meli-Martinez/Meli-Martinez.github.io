@@ -124,7 +124,6 @@ body {
 }
 
 .list {
-  font-family: monserrat;
   padding: 15px;
   font-size: 18px;
 }
@@ -151,6 +150,11 @@ body {
   font-weight: 500;
   border-radius: 5px;
   padding: 0 0 0 10px;
+}
+
+.list-monry ul, li {
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 /*-- CARD: button --*/
