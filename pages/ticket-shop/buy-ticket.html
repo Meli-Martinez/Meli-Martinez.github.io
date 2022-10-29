@@ -2,108 +2,108 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Boleteria</title>
-  <link rel="stylesheet" href="../../assets/styles/buy-ticket.css">
-  <link rel="icon" href="../../assets/images/logo/pestaña.logo.png">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Boleteria</title>
+	<link rel="stylesheet" href="../../assets/styles/buy-ticket.css">
+	<link rel="icon" href="../../assets/images/logo/pestaña.logo.png">
 </head>
 
 <body>
-  <nav class="menu">
-    <a href="../../index.html" class="menu-option">Galeria</a>
-    <a href="../artist/artist-index.html" class="menu-option">Artistas</a>
-    <div class=" logo-menu">
-      <a href="../about-us/about-us.html"><img src="../../assets/images/logo/logo-black.png" alt="Logo de la empresa"
-          width="50px" /></a>
-    </div>
-    <a href="../ticket-shop/ticket-init.html" class="menu-option">Boletería</a>
-    <a href="#contact" class="menu-option">Contacto</a>
-  </nav>
+	<nav class="menu">
+		<a href="../../index.html" class="menu-option">Galeria</a>
+		<a href="../artist/artist-index.html" class="menu-option">Artistas</a>
+		<div class=" logo-menu">
+			<a href="../about-us/about-us.html"><img src="../../assets/images/logo/logo-black.png" alt="Logo de la empresa"
+					width="50px" /></a>
+		</div>
+		<a href="../ticket-shop/ticket-init.html" class="menu-option">Boletería</a>
+		<a href="#contact" class="menu-option">Contacto</a>
+	</nav>
 
-  <div class="general-container">
-    <div class="prices-container">
-      <div class="prices-title">
-        <h1>Precios</h1>
-      </div>
-      <div>
-        <ul class="list-money">
-          <li class="list">Simple: 15$ (solo mirar)</li>
-          <li class="list">Normal: 20$ (puede tomar fotos)</li>
-          <li class="list">Premium: 35$ (tiene un guia)</li>
-          <li class="list">VIP: 50$ (todo lo anterior + snacks & bebidas)</li>
-          <li class="rule">*prohibido la entradas con menores a 10 años*</li>
-        </ul>
-      </div>
-    </div>
+	<div class="general-container">
+		<div class="prices-container">
+			<div class="prices-title">
+				<h1>Precios</h1>
+			</div>
+			<div>
+				<ul class="list-money">
+					<li class="list">Simple: 15$ (solo mirar)</li>
+					<li class="list">Normal: 20$ (puede tomar fotos)</li>
+					<li class="list">Premium: 35$ (tiene un guia)</li>
+					<li class="list">VIP: 50$ (todo lo anterior + snacks & bebidas)</li>
+					<li class="rule">*prohibido la entradas con menores a 10 años*</li>
+				</ul>
+			</div>
+		</div>
 
-    <div class="container-ticket">
-      <div class="title-ticket">
-        <h1>Ticket</h1>
-        <img src="../../assets/images/logo/ticket-chico.png" alt="Icono de entradas al museo" width="46px">
-      </div>
-      <div class="input">
-        <form method="post" action="/resultado"></form>
-        <input type="email" name="Email" placeholder="Email" />
-        </form>
-      </div>
-      <div class="input">
-        <form method="post">
-          <input type="Text" name="CI" placeholder="CI" />
-        </form>
-      </div>
-      <div class="input">
-        <select class="ticket">
-          <option>Simple</option>
-          <option>Normal</option>
-          <option>Premium</option>
-          <option>VIP</option>
-        </select>
+		<div class="container-ticket">
+			<div class="title-ticket">
+				<h1>Ticket</h1>
+				<img src="../../assets/images/logo/ticket-chico.png" alt="Icono de entradas al museo" width="46px">
+			</div>
+			<div class="input">
+				<form method="post" action="/resultado"></form>
+				<input type="email" name="Email" placeholder="Email" />
+				</form>
+			</div>
+			<div class="input">
+				<form method="post">
+					<input type="Text" name="CI" placeholder="CI" />
+				</form>
+			</div>
+			<div class="input">
+				<select class="ticket">
+					<option>Simple</option>
+					<option>Normal</option>
+					<option>Premium</option>
+					<option>VIP</option>
+				</select>
 
-      </div>
-      <div class="input">
-        <form method="post">
-          <input type="Number" name="Enradas" placeholder="Cantidad Entradas" />
-        </form>
-      </div>
-      <div class="input">
-        <form method="post">
-          <input type="datetime-local" name="fecha" />
-        </form>
-      </div>
-      <div class="button-general">
-        <form method="post">
-          <button type="submit" value="Comprar" class="buy-action">Comprar</button>
-        </form>
-        <form><button class="cancel-action">Cancelar</button></form>
-      </div>
-    </div>
-  </div>
+			</div>
+			<div class="input">
+				<form method="post">
+					<input type="Number" name="Enradas" placeholder="Cantidad Entradas" />
+				</form>
+			</div>
+			<div class="input">
+				<form method="post">
+					<input type="datetime-local" name="fecha" />
+				</form>
+			</div>
+			<div class="button-general">
+				<form method="post">
+					<button type="submit" value="Comprar" class="buy-action">Comprar</button>
+				</form>
+				<form><button class="cancel-action">Cancelar</button></form>
+			</div>
+		</div>
+	</div>
 
-  <footer id="contact">
-    <div class="container-contact">
-      <div class="picture-logo">
-        <img src="../../assets/images/logo/logo-grande.png" alt="Logo" width="220px">
-      </div>
-      <div class="container-logo-position">
-        <div class="logo-position">
-          <img src="../../assets/images/logo/contact.png" alt="Logo de Telefono" width="40px">
-          <p>(+598) 90 664 121</p>
-        </div>
-        <div class="logo-position">
-          <img src="../../assets/images/logo/gmail.png" alt="Logo de Gmail" width="40px">
-          <a href="malito:sentimentalhyperbole@gmail.com">sentimentalhyperbole@gmail.com</a>
-        </div>
-      </div>
-      <div class="social-position">
-        <a href="https://www.instagram.com/sentimentalhyperbole/"><img src="../../assets/images/logo/instagram.png"
-            alt="" width="50px"></a>
-        <a href="https://www.facebook.com/sentimentalhyperbole/"><img src="../../assets/images/logo/facebook.png" alt=""
-            width="50px"></a>
-      </div>
-    </div>
-  </footer>
+	<footer id="contact">
+		<div class="container-contact">
+			<div class="picture-logo">
+				<img src="../../assets/images/logo/logo-grande.png" alt="Logo" width="220px">
+			</div>
+			<div class="container-logo-position">
+				<div class="logo-position">
+					<img src="../../assets/images/logo/contact.png" alt="Logo de Telefono" width="40px">
+					<p>(+598) 90 664 121</p>
+				</div>
+				<div class="logo-position">
+					<img src="../../assets/images/logo/gmail.png" alt="Logo de Gmail" width="40px">
+					<a href="malito:sentimentalhyperbole@gmail.com">sentimentalhyperbole@gmail.com</a>
+				</div>
+			</div>
+			<div class="social-position">
+				<a href="https://www.instagram.com/sentimentalhyperbole/"><img src="../../assets/images/logo/instagram.png"
+						alt="" width="50px"></a>
+				<a href="https://www.facebook.com/sentimentalhyperbole/"><img src="../../assets/images/logo/facebook.png" alt=""
+						width="50px"></a>
+			</div>
+		</div>
+	</footer>
 
 </body>
 
