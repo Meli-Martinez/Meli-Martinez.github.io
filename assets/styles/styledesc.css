@@ -51,6 +51,10 @@ body {
     font-weight: bold;
 }
 
+.menu-option:hover {
+    background-color: rgba(207, 204, 204, 0.459);
+  }
+
 /* -- INFORMATION -- */
 
 /* -- INFORMATION: container -- */

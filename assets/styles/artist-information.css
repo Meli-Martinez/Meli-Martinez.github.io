@@ -44,10 +44,10 @@ body {
 	text-decoration: none;
 	padding: 2%;
 	font-weight: bold;
-} 
+}
 
 .menu-option:hover {
-  background-color: #dbd8d8c9;
+  background-color: rgba(207, 204, 204, 0.459);
 }
 
 /* -- ARTIST -- */
@@ -110,7 +110,7 @@ li {
   font-size: 20px;
   margin-bottom: 2%;
   font-weight: bold;
-  font-family: 'Montserat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin-top: 1%;
 }
 
@@ -123,7 +123,7 @@ li {
   font-size: 18px;
   text-align: justify;
   color: #36201C;
-  font-family: 'Montserat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* -- FOOTER -- */
